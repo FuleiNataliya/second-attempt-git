@@ -1,0 +1,26 @@
+mkdir git 						//create a folder
+cd git 							//go to the folder
+mkdir proj1						//create a folder
+cd dir/proj1/						//go to the folder
+git init						//creating a repository
+git status						//status check
+touch cursor.txt					//create txt file
+git add .						//add all changes
+git commit -m "Initial first commit"			//commit
+git remote and origin https://git..............		//connect to a remote repository
+git puch -u origin master				//puch changes
+
+
+git branch add-instructions				//create a branch
+git branch						//branch check
+git checkout add-instructions				//transition to branch
+git status						//status check
+touch instructions.txt					//create txt file
+git status						//status check
+git add.						//add all changes
+git commit -m "added instructions"			//commit
+git checkout master					//transition
+git branch						//branch check
+git merge add-instructions				//add changes
+git branch -d .........					//remove branch
+git checkout -						//transition
